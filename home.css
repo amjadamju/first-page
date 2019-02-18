@@ -1,0 +1,221 @@
+body{
+    background-color: rgb(0);
+    margin: 0;
+}
+
+div.l{
+    background-color:#bd5d38;
+    width: 20%;
+    position: static;
+    height: 100vh;
+    float: left;
+}
+
+div.r {
+    margin:auto;
+    float: left;
+}
+
+#profile{
+    display: block  ;
+    margin-left:75px;
+    margin-top: 50px;
+    width: 150px;
+    height: 150px;
+    border-radius: 100%;
+    border: 5px solid rgba(255, 255, 255, 0.459);
+    margin-bottom: 80px;
+}
+
+a:hover{
+    color: rgb(212, 221, 221);
+}
+
+li.more{
+    
+    list-style: none;
+    display: block  ;
+    width: 100%;
+    text-align: center;
+    margin-top: 20px;
+    font-family: "Bebas neue regular";
+    font-size: 30px;
+    font-weight: 700;
+} 
+
+#mail{
+    color: #bd5d38;
+}
+
+#abt_him{
+    margin-bottom: 50px;
+    margin-top: 30px;
+    margin-left: 40px;
+    font-size: 25px;
+    font-family: serif;
+    color: rgba(70, 67, 67, 0.932);
+    float: left;
+}
+
+
+img.icon{
+    width: 50px;
+    height: 50px;
+    margin-right: 20px;
+    margin-bottom: 100px;
+    float: left;
+    opacity: 50%;
+}
+
+#icons{
+    margin-bottom: 250px;
+    margin-top: 80px;
+}
+
+li.icon{
+    list-style-type: none;
+    float: left;
+    margin-left: 50px;
+}
+
+hr{
+    margin-top: 150px;
+    margin-bottom: 150px;
+}
+
+#details{
+    margin: auto;
+}
+
+
+a{
+    text-decoration: none;
+    color: grey;
+
+}
+
+#name{
+    margin-left: 2%;
+    margin-top: 150px;
+    margin-bottom: 0%;
+    font-size: 95px;
+    font-family: "Bebas neue regular";
+    font-weight: bolder;
+    line-height: 1.5;
+    color: #0c0c0c;
+}
+
+#second{
+    color: #bd5d38;
+}
+
+li.address{
+    list-style-type:disc;
+    float: left;
+    margin-left: 15px;
+    margin-right: 15px;
+    font-size: 25px;
+    font-family: "Bebas neue regular";
+    color: #0c0c0c86;
+    margin-bottom: 50px;
+    font-weight: 700;
+}
+
+#first{
+    list-style-type: none;
+}
+
+
+h1.exp{
+    font-family: "Bebas neue regular";
+    font-size: 50px;
+    text-transform: uppercase;
+    color: rgba(0, 0, 0, 0.884);
+    margin-bottom: 80px;
+    font-weight: bold;
+    text-align: left;
+}
+
+p.para{
+    font-size: 20px;
+    color:black;
+    font-family: sans-serif;
+    color:#0c0c0c86;
+    font-weight: 300;
+}
+
+h2.heading{
+    font-size: 30px;
+    line-height: 20px;
+    color: black;
+    font-family: "Bebas neue regular";
+    font-weight: 900;
+}
+
+h3.heading{
+    font-size: 25px;
+    color: rgb(122, 121, 121);
+    font-family: "Bebas neue regular";
+    font-weight: 700;
+}
+
+.left_links{
+    text-decoration: none;
+    align-self: center;
+}
+
+
+#education{
+    margin-left: 30px;
+    margin-top: 150px;
+    font-weight: bold;
+}
+
+svg.skls{
+    height: 55px;
+    width: 55px;
+    margin-left: 15px;
+    margin-right: 15px;
+}
+
+div.skls{
+    margin-top: 65px;
+    margin-bottom: 75px;
+}
+
+#skills{
+    margin-left: 20px;
+
+}
+
+#experience{
+    margin-left: 25px;
+}
+
+li.workflow{
+    list-style-type:none;
+    font-size: 20px;
+    color: #0c0c0c86;
+}
+
+li.workflow:before{
+    display: inline-block;
+    height: 5px;
+    width: 5px;
+    background-image: url("tick.png");
+ }
+
+ #interest{
+     margin-left: 25px;
+ }
+
+ ul.awards{
+     font-size: 20px;
+     color: #0c0c0c86;
+     list-style: none;
+ }
+
+ #awards{
+     margin-left: 30px;
+     margin-bottom: 50px;
+ }
