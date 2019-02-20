@@ -6,14 +6,16 @@ body{
 div.l{
     background-color:#bd5d38;
     width: 20%;
-    position: static;
+    position: fixed;
     height: 100vh;
     float: left;
 }
 
 div.r {
     margin:auto;
+    width: 80%;
     float: left;
+    padding-left: 20%;
 }
 
 #profile{
